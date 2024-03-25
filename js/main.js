@@ -13,7 +13,7 @@ const typed = new Typed('.typed', {
     suffle: false, //Altera el orden de las frases
     backDelay: 2000, //Tiempo de espera
     loop: true, // si queremos que se repita
-    loopCount: false, // cuantas veces se va a repetir
+    loopCount: true, // cuantas veces se va a repetir
     showCursor: true, // mostrar el cursor palpitando
     cursorChar: '|', //caracter para el cursor
     contenType: 'html', //trabajar con html

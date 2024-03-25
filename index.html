@@ -18,12 +18,12 @@
 
     <!-- Inicio del menu -->
     
-      <nav class="navbar navbar-expand-sm navbar-dark ">
+      <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
         <!-- logo -->
 
         <a class="navbar-brand" href="#">
-          <img src="images/logoJULIO55.png" alt="logo Julio Pena Obando">
+          <img src="images/logoJULIO55.png" alt="logo Julio Peña Obando">
           
         </a>
             
@@ -36,7 +36,8 @@
           <!-- elementos del menu colapsible -->
 
         <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav me-auto">
+          <!-- mx-auto: centra -->
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -77,40 +78,46 @@
       </nav>
 
       <main>
-        <div class="contenedor-img">
-          <!-- imagen responsive en Bootstrap -->
-             <img class= "img-fluid" src="./images/julio-pena2.png" alt="Julio Pena">
-        </div>
-        
-        <div class="contenedor-texto">
-
-             <!-- forma 1
-             <h2 class="titulo"> Julio Peña <br> <span class="typed"> </span>
-             </h2> -->
-             
-             <h2 class="titulo"> 
-                  <span class="typed"> </span>
-             </h2>
-        
-        
-             <!-- forma 2 -->
-
-             <div class="titulo" id="cadenas-texto">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 ">
+              <div class="contenedor-img d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+                <!-- imagen responsive en Bootstrap -->
+                   <img class= "img-fluid" src="./images/julio-pena2.png" alt="Julio Pena">
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+              <div class="contenedor-texto">
+  
+                <!-- forma 1
+                <h2 class="titulo"> Julio Peña <br> <span class="typed"> </span>
+                </h2> -->
+                
+                <h2 class="titulo"> 
+                     <span class="typed"> </span>
+                </h2>
+  
+              
+           
+           
+                <!-- forma 2 -->
+   
+                <div class="titulo" id="cadenas-texto">
                   <p>Julio Peña <br> <i class="profesion">ICT Teacher</i></p>
                   <p>Julio Peña <br> <i class="profesion">ICT Teacher</i></p>
                   <p>Julio Peña <br> <i class="profesion">Web Developer</i></p>
                   <p>Julio Peña <br> <i class="profesion">Graphic Designer</i></p>
              </div>
-             <!-- Boton video -->
-             <div>
-                  <div class="play"></div>
-             </div>
+  
              
+                
+            </div>
+          </div>
         </div>
-   </main>
+       </main>
 
     <!-- Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
   <!-- texto animado -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script src="./js/main.js"></script>

@@ -20,9 +20,6 @@ body.home{
     color: rgb(221, 221, 221); 
 }
 
-
-
-
 .typed{
     color: rgb(231, 231, 231); 
 }
@@ -58,27 +55,28 @@ a:hover{
     color:aliceblue;
 }
 
-main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 main .contenedor-img {
-    max-width: 60%;
+    max-width: 95%;
     margin-right: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contenedor-texto .titulo {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: normal;
-    margin-bottom: 40px;
+    text-align: center;
+    
 }
 
 .contenedor-texto .profesion {
     font-weight: bold;
-    color: #a9a9a9;
+    color: #87898b;
     font-style: normal;
+    text-align: center;
 }
 
 
@@ -118,10 +116,4 @@ main .contenedor-img {
     border-radius: 10px;
 }
 
-h2.negro{
-    color:rgb(0, 0, 0);
-}
 
-p.negro{
-    color:rgb(0, 0, 0);
-}
